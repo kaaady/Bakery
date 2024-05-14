@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Bakery </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        
+        table th,
+        table td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        table th {
+            background-color: #f2f2f2;
+        }
+        
+        ul {
+            font-size: 12px;
+            margin-top: 20px;
+            margin-left: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fas fa-bread-slice"></i> bakery </a>
+
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="about.html">about</a>
+            <a href="product.html">product</a>
+            <a href="gallery.html">gallery</a>
+            <a href="team.html">team</a>
+            <a href="order.html">order</a>
+        </nav>
+
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+
+    </header>
+
+    <section class="product" id="product">
+
+        <h1 class="heading" style="margin-top: 60px;">our products
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/product-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Strawberry bread</h3>
+                    <span class="price">SR 15.99</span>
+                    <a href="order.html" class="btn">buy</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/product-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Bread with ghee</h3>
+                    <span class="price">SR 18.99</span>
+                    <a href="order.html" class="btn">buy</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/product-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Honey bread</h3>
+                    <span class="price">SR 11.99</span>
+                    <a href="order.html" class="btn">buy</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/product-4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Caramel cake</h3>
+                    <span class="price">SR 15.99</span>
+                    <a href="order.html" class="btn">buy</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/product-5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Strawberry bread</h3>
+                    <span class="price">SR 27.99</span>
+                    <a href="order.html" class="btn">buy</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/product-6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>apple pie</h3>
+                    <span class="price">SR 25.99</span>
+                    <a href="order.html" class="btn">buy</a>
+                </div>
+            </div>
+
+        </div>
+        <h2>Menu</h2>
+        <table>
+            <tr>
+                <th>Item</th>
+                <th>Description</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Croissant</td>
+                <td>Flaky pastry made with butter</td>
+                <td>SR2.50</td>
+            </tr>
+            <tr>
+                <td>Cupcake</td>
+                <td>Moist cake with creamy frosting</td>
+                <td>SR 3.00</td>
+            </tr>
+            <tr>
+                <td>Chocolate Chip Cookie</td>
+                <td>Classic cookie with rich chocolate chips</td>
+                <td>SR 1.50</td>
+            </tr>
+        </table>
+
+        <h2>Specials</h2>
+        <ul>
+            <li>Buy 2 pastries, get 1 free!</li>
+            <li>Try our seasonal pie of the month</li>
+            <li>Custom cake orders available for special occasions</li>
+        </ul>
+    </section>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
